@@ -90,7 +90,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="post-preview">
-                        <p class="post-meta">September 24, 2014</p>
+                        <p class="post-meta">September 24, 2018</p>
                         <img class="img-responsive" src="img/caralog4.jpg">
                         <h2 class="post-title">
                             Future Is Green
@@ -103,7 +103,7 @@
 
             <div class="col-md-3">
                 <div class="post-preview">
-                        <p class="post-meta">September 18, 2014</p>
+                        <p class="post-meta">September 18, 2018</p>
                         <img class="img-responsive" src="img/caralog5.jpg">
                         <h2 class="post-title">
                             Keep Your Balance
@@ -117,7 +117,7 @@
             <div class="col-md-3">
                 <div class="post-preview">
                     
-                        <p class="post-meta">August 24, 2014</p>
+                        <p class="post-meta">August 24, 2018</p>
                         <img class="img-responsive" src="img/caralog6.jpg">
                         <h2 class="post-title">
                             Business Group
@@ -130,7 +130,7 @@
             </div>
             <div class="col-md-3">
                 <div class="post-preview">
-                        <p class="post-meta">July 8, 2014</p>
+                        <p class="post-meta">July 8, 2018</p>
                         <img class="img-responsive" src="img/caralog1.jpg">
                         <h2 class="post-title">
                             Financial Institutions
@@ -142,9 +142,9 @@
             </div>
 
         </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="post-preview">
-                        <p class="post-meta">July 8, 2014</p>
+                        <p class="post-meta">July 8, 2018</p>
                         <img class="img-responsive" src="img/caralog1.jpg">
                         <h2 class="post-title">
                             Rolling up multiple rows into a single row and column with SQL Server
@@ -162,6 +162,22 @@
                             ), 1, 2, '') AS ColumnName
                         </h3>
                 </div>
+                <div class="col-md-6">
+                <div class="post-preview">
+                        <p class="post-meta">July 8, 2018</p>
+                        <img class="img-responsive" src="img/caralog1.jpg">
+                        <h2 class="post-title">
+                           How to find all table names with column name?
+                        </h2>
+                        <h3 class="post-subtitle">
+                        Please try the below query. Use sys.columns to get the details (For SQL SERVER 2008+) :
+                            SELECT c.name AS ColName, t.name AS TableName
+                            FROM sys.columns c
+                                JOIN sys.tables t ON c.object_id = t.object_id
+                            WHERE c.name LIKE '%YourColumn%';
+                            
+                        </h3>
+                </div>
             </div>
 
         </div>
@@ -177,7 +193,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                           Copy right by Code For Life
+                           copyright by Code For Life
                         </li>
                        
                     </ul>
