@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Small Business - Sample Page</title>
+    <title>Code For Life</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,10 +17,18 @@
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope, $location) {
+debugger;
+   $scope.id = $location.absUrl().split('?')[1].replace("#!/","");;
+});
+</script>
 
 </head>
 
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -33,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">ForBetterWeb</a>
+                <a class="navbar-brand" href="index.html">CodeForLife</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,9 +52,6 @@
                     </li>
                     <li>
                         <a href="about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="page.html">Sample Page</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -78,94 +83,184 @@
     <article>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV1'">
 
-                    <h2 class="section-heading">The Final Frontier</h2>
+                    <h2 class="section-heading">English Quiz</h2>
 
-                    <p>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</p>
+                    <p>English Quiz is designed to help you broaden your English vocabulary and listening comprehension skills by playing this app. This is an ultimate app for vocabulary development . It helps you learn everyday English with  24,400 vocabulary words. You can use it wherever you are because this app  is very accessible you don’t need internet connection to use this. You can use it both offline and online.</p>
 
-                    <blockquote>Proactively envisioned multimedia based expertise and cross-media growth strategies.</blockquote>
 
-                    <p>Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.</p>
+                    <p>How to use English Quiz:</p>
 
-                    <h2 class="section-heading">Credibly innovate</h2>
+              
 
-                    <p>Credibly innovate granular internal or "organic" sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas with optimal networks.</p>
+                    <p>Step 1: Install app from google play store via link: <a href="https://play.google.com/store/apps/details?id=quizenglish.quizenglish">https://play.google.com/store/apps/details?id=quizenglish.quizenglish</a></p>
 
                     <a href="#">
-                        <img class="img-responsive" src="img/caralog9.jpg" alt="">
+                        <img class="img-responsive" src="img/BV1H001.PNG" alt="">
                     </a>
-                    <span class="caption text-muted">Phosfluorescently engage worldwide methodologies with web-enabled technology</span>
 
-                    <p>Interactively procrastinate high-payoff content without backward-compatible data. Quickly cultivate optimal processes and tactical architectures. Completely iterate covalent strategic theme areas via accurate e-markets.</p>
+                    <p>Step 2: Open app English Quiz and click icon play</p>
 
-
-                    <p>Placeholder text by <a href="http://www.cipsum.com/">Corporate Ipsum</a>. Photos by <a href="https://unsplash.com/">unsplash.com</a>.</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV1H002.PNG" alt="">
+                    </a>
+                    <p>Step 3: Click answer you choose</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV1H003.PNG" alt="">
+                    </a>
+					<p>And now play and enjoy it. Good luck to you.</p>
                 </div>
+            </div>
+			
+			 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV2'">
+
+                    <h2 class="section-heading">English Listening Game</h2>
+
+                    <p>English Listening Game helps you to practice your English proficiency and skills; like reading, writing and even practicing english pronounciation.
+					All of words in this English Listening Game are derived British English Council and American English with English meaning and Vietnamese translation. It contains 24,400 questions . It is designed to help the players broaden their vocabulary, improve pronounciation skills through listening foreign voices. You can use this both online and offline. With this app you can develop your modes of communication like reading, listening and speaking.
+					</p>
+
+
+                    <p>How to use English Listening Game</p>
+
+              
+
+                    <p>Step 1: Download and install app via google play Store by <a href="https://play.google.com/store/apps/details?id=gameluyennghetienganh.gameluyennghetienganh">https://play.google.com/store/apps/details?id=gameluyennghetienganh.gameluyennghetienganh</a></p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/BV2H001.PNG" alt="">
+                    </a>
+
+                    <p>Step 2: Open app and play game by click button Bắt Đầu:</p>
+
+					<a href="#">
+                        <img class="img-responsive" src="img/BV2H002.PNG" alt="">
+                    </a>
+                    <p>Step 3: Click answer you choose:</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV2H003.PNG" alt="">
+                    </a>
+					<p>The game very good for people to learning English.</p>
+                </div>
+				
+				 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV3'">
+
+                    <h2 class="section-heading">Fast Browser</h2>
+
+                    <p>Fast Browser is an application that helps you to browse pages more quickly if you have a sluggish network. With the help of this app, you can easily browse your favourite social media apps. By turning on Fast Browser you can get more articles, photos, videos and keep updated  with the last memes. Enjoy a Fast Browser and do more on the web.
+
+					</p>
+
+
+                    <p>How to use Fast Browers</p>
+
+              
+
+                    <p>Step 1:Download and install via google play store by link: <a href="https://play.google.com/store/apps/details?id=com.fast.fast">https://play.google.com/store/apps/details?id=com.fast.fast</a></p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/BV3H001.PNG" alt="">
+                    </a>
+
+                    <p>Step 2: Put url web you want access</p>
+
+					<a href="#">
+                        <img class="img-responsive" src="img/BV3H002.PNG" alt="">
+                    </a>
+                    <p>Step 3: After put url, you click go. The web showed</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV3H003.PNG" alt="">
+                    </a>
+					<p>The Fast Browser no cache, no save history and very fast.</p>
+                </div>
+				
+			 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV4'">
+
+                    <h2 class="section-heading">Nhanh như chớp (Đố Vui)</h2>
+
+                    <p>This app is designed to measure the thinking skills or ability of the players to think quickly of the best answers in a given time. This is a speed test game. You can enjoy the moment of relaxation  after a long stressful day of work.
+						It has hilarious, humourous and extensive knowledge questions that will help you improve your higher order thinking skills. This is a completely free application, an entertaining app that is incredibly attractive. It also helps logical and creative thinking. The questions are categorize in any field. Simple and easy to use. It has two different levels: the Intellectual puzzles and the Brain  damage puzzles.  The Intellectual puzzles challenge the fast mindset and extensive knowledge. Brain damage puzzles are funny and humourous questions that need reasoning.
+						Let’s play to relieve the stress, fatigue and find interesting answers waiting for you ahead. Enjoy and have fun while playing.
+					</p>
+
+
+                    <p>How to use app ?</p>
+
+              
+
+                    <p>Step 1: Download and install from google play store via link:  <a href="https://play.google.com/store/apps/details?id=dovuicuchay.dovuicuchay">https://play.google.com/store/apps/details?id=dovuicuchay.dovuicuchay</a></p>
+
+                    <a href="#">
+                        <img class="img-responsive" src="img/BV4H001.PNG" alt="">
+                    </a>
+
+                    <p>Step 2: Step 2: Login and play game:</p>
+
+					<a href="#">
+                        <img class="img-responsive" src="img/BV4H002.PNG" alt="">
+                    </a>
+                    <p>Step 3: You choose answer:</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV4H003.PNG" alt="">
+                    </a>
+					<p>Result after you choose answer:</p>
+					<a href="#">
+                        <img class="img-responsive" src="img/BV4H004.PNG" alt="">
+                    </a>
+					<p>Just for fun, enjoy game.</p>
+                </div>
+				
+				 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV5'">
+
+                    <h2 class="section-heading">Rolling up multiple rows into a single row and column with SQL Server</h2>
+
+                    <p>If you need a way to roll-up multiple rows into one row and one column. You know You can roll-up multiple rows into one row using Pivot, but you need all of the data concatenated into a single column in a single row. In this tip we look at a simple approach to accomplish this. And my solution is you should use STUFF function in Sql.
+
+					</p>
+
+
+                    <p> How to use ?</p>
+
+              
+
+                    <p>Code below:</p>
+					<p>
+						SELECT STUFF((select ', ' + ColumnName FROM Your table name for xml path ('') ), 1, 2, '') AS ColumnName
+					</p>
+
+                </div>
+				 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" ng-if="id=='BV6'">
+
+                    <h2 class="section-heading">How to find all table names with column name in Sql Server?</h2>
+
+                    <p>Please try the below query. Use sys.columns to get the details (For SQL SERVER 2008+) : 
+					</p>
+                    <p>Code below:</p>
+					<p>
+						SELECT c.name AS ColName, t.name AS TableName FROM sys.columns c JOIN sys.tables t ON c.object_id = t.object_id WHERE c.name LIKE '%YourColumn%';
+
+					</p>
+
+                </div>
+				
             </div>
         </div>
     </article>
 
     <hr>
 
-    <!-- Footer -->
+   <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
-                        <li>
-                            <a href="https://github.com/elkindnet">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                        <li class="text-red">
+                           Copyright by Code For Life
                         </li>
-                        <li>
-                            <a href="https://twitter.com/jenyelkind">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/jenyelkind">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://plus.google.com/+JenyElkind/">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:elkind@elkind.net">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://elkind.net">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-male fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
+                       
                     </ul>
-                    <p class="copyright text-muted">&copy; 2015 <a href="http://forbetterweb.com">Your Website</a>
-                        We <i class="fa fa-heart"></i> <a href="http://forbetterweb.com">Code Design</a></p>
                 </div>
             </div>
         </div>
